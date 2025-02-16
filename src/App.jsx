@@ -26,7 +26,7 @@ function App() {
           </div>
 
           {/* Main Content */}
-          <div className="content-Right w-[85%] px-3">
+          <div className="content-Right w-[85%] px-2">
             <Routes>
               <Route path='/' element={<Dashboard />} />
               <Route path='/products/list' element={<ProductsList />} />
